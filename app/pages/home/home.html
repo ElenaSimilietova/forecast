@@ -1,0 +1,22 @@
+<div class="jumbotron text-left">
+	<h2>{{city}}, {{country}}</h2>
+</div>
+<div class="table-responsive" style="clearfix row">
+  <table class="table">
+    <thead>
+		<tr>
+			<th colspan="2">Today, {{forecastToday.day}} {{forecastToday.monthname}} {{forecastToday.year}}, {{forecastToday.weekday}}</th>
+			<th>Temperature, °C</th>
+			<th>Wind, kph</span></th>
+			<th>Humidity,&nbsp;%</th>
+		</tr>
+		<tr>
+			<td><img src='{{forecastToday.icon_url}}'></td>
+			<td>{{forecastToday.conditions}}</td>
+			<td>{{forecastToday.temperature}}</td>
+			<td>{{forecastToday.wind}}</td>
+			<td>{{forecastToday.humidity}}</td>
+		</tr>
+	</thead>
+  </table>
+</div>

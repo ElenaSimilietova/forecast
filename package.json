@@ -1,0 +1,36 @@
+{
+  "name": "forecast",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A starter project for AngularJS",
+  "dependencies": {
+    "angular": "1.6.2",
+    "angular-route": "~1.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-register": "^6.18.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.2.2",
+    "eslint-loader": "^1.3.0",
+    "extract-text-webpack-plugin": "2.1.0",
+    "html-webpack-plugin": "^2.14.0",
+    "http-server": "^0.9.0",
+    "isparta-loader": "^2.0.0",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.2",
+    "minimist": "^1.1.0",
+    "ng-annotate-loader": "^0.1.0",
+    "ngtemplate-loader": "^1.3.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^2.2.0",
+    "webpack-stream": "^3.1.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8088 -c-1 ./dist"
+  }
+}
